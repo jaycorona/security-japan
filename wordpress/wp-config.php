@@ -3,16 +3,16 @@
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wpc00747222_live_jsc');
+define('DB_NAME', 'security-japan');
 
 /** MySQL database username */
-define('DB_USER', 'dba00747222_live_jsc');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'E#yDQ$u#Bq#7');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', '172.21.23.227');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
