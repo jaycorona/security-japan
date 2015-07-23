@@ -1,0 +1,484 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Template Documentation Template</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css"
+  media="screen, projection">
+<style type="text/css" media="screen">
+p, table, hr, .box {
+margin-bottom: 25px;
+}
+
+.box p {
+margin-bottom: 10px;
+}
+p img {
+max-width: 960px;
+}
+hr {
+margin-top: 15px;
+}
+</style>
+</head>
+
+
+<body>
+<div class="container">
+
+<h3 class="center alt">“Enigmatic” Responsive Corporate WordPress Theme Documentation by “LiveMesh” v1.2</h3>
+
+<hr/>
+
+<h1 class="center">“Enigmatic”</h1>
+
+<div class="borderTop">
+<div class="span-6 colborder info prepend-1">
+<p class="prepend-top"><strong>
+Created: 01/28/2013</strong></p>
+By: LiveMesh
+
+<strong>Email: <a href="http://themeforest.net/user/livemesh">Use my ThemeForest profile page</a>
+</strong>
+
+</div>
+&nbsp;
+<div class="span-12 last">
+<p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond
+what is provided in this help file, feel free to email us through the contact form <a
+href="http://themeforest.net/user/livemesh">here</a>. You should also <a
+href="http://twitter.com/live_mesh">follow us on twitter</a> to get the updates. Thanks again!</p>
+
+</div>
+</div>
+&nbsp;
+
+<hr/>
+
+<h2 id="toc" class="alt">Table of Contents</h2>
+<ol class="alpha">
+<li><a href="#installation">Installation</a></li>
+<li><a href="#general">General Options</a></li>
+<li><a href="#header">Header and Logo Options - How to Add Custom Logo, Customize Header</a></li>
+<li><a href="#footer">Footer Options</a></li>
+	<li><a href="#layout-management">Layout Management Options</a></li>
+<li><a href="#font-colors-backgrounds">Fonts, Colors and Background Options</a></li>
+<li><a href="#primary-menu-options">Primary and Sticky Menu Options - How to add Navigation Menus to your site.</a></li>
+	<li><a href="#custom-css">Custom CSS</a></li>
+<li><a href="#portfolio-page">Portfolio Page Options - How to make Portfolio Entries</a></li>
+<li><a href="#slider-entry">Setting up Sliders (Revolution/Nivo/Flex) and related configuration</a></li>
+<li><a href="#set-featured-image">Set Featured Image</a></li>
+	<li><a href="#video">Video Options</a></li>
+<li><a href="#shortcode-helper">Shortcodes and Shortcodes Helper</a></li>
+<li><a href="#contact-form">Contact Form</a></li>
+<li><a href="#widgets-sidebars">Custom Widgets and Sidebars</a></li>
+<li><a href="#page-templates">Custom Page Templates</a></li>
+<li><a href="#translation">Translation and Localization</a></li>
+<li><a href="#icon-fonts">500+ Icons Usage</a></li>
+<li><a href="#unlimited-sidebars">Unlimited Sidebars</a></li>
+<li><a href="#custom-headers">Custom Headings for Post/Page</a></li>
+</ol>
+
+<hr/>
+
+<h3 id="installation"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+<ol>
+<li>Download and unzip theme package file. The following folders will be in the unzipped file:
+<ul>
+<li><strong>enigmatic</strong> - theme files that you need upload to your wordpress installation.</li>
+<li><strong>resource\psds</strong> - all layered psd files for the theme.</li>
+<li><strong>licensing</strong> - license for the theme.</li>
+<li><strong>documentation</strong> - documentation files for the theme.</li>
+</ul>
+</li>
+<li>Before you install the theme, make sure your wordpress version is 3.3 or higher. Then upload only the folder
+"enigmatic" to the /wp-content/themes folder of your WordPress installation root directory or ftp the folder to
+/wp-content/themes/ through your FTP Client.
+<li>Next login to your WordPress admin panel and go to <a
+href="http://codex.wordpress.org/Administration_Panels#Appearance" target="_blank">Appearance</a> -&gt; <a
+href="http://codex.wordpress.org/Administration_Panels#Themes" target="_blank">Themes</a> subpanel. Then
+look for <strong>Enigmatic</strong> theme and activate it just like you would activate any other theme.
+</li>
+<li>Once activated <strong>Enigmatic</strong>, you will see the new panels below added to the <a
+href="http://codex.wordpress.org/Administration_Panels" target="_blank">Administration Panels.</a>
+
+<div class="center"><img src="assets/images/enigmatic-options.png" alt="Enigmatic Admin Panel"/></div>
+</li>
+</ol>
+If you need help installing Wordpress see the link below to know more about:
+
+<a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">http://codex.wordpress.org/Installing_WordPress</a>
+
+<p>It's not so difficult to use our theme to build your website. Actually to make it easy for you to build your corporate website, we have attached the content xml file with the theme package, so that you can import lots of ready content to your installation. Once you have activated the theme, all you need to do is save the xml file to any location and import the contents using Wordpress importer plugin. </p>
+
+<p>If you want to know how to import the contents from xml file please see this  
+<a href="http://www.youtube.com/watch?v=ST40OORShLg">video tutorial</a>  on how to import a WordPress XML File Of Posts and Pages</p>
+
+<p>Once you are done importing the content, Please explore the "Pages", "Posts" etc on the admin panel and edit them as per your requirement. Please read this documentation for any assistance on the theme, and also we will be happy to assist you in all possible manner. </p>
+
+<hr/>
+
+<h3 id="general"><strong>B) General Options</strong> - <a href="#toc">top</a></h3>
+<p>Once activated, <strong>Enigmatic</strong> provides a number of options for customizing your site. <strong>The options
+panel is mostly self-explanatory with reasonable documentation on each and every option provided there</strong>.
+While not repeating the documentation already provided there, we will try to cover some of the less obvious details here
+in this document. Let us look at the General tab of <strong>Enigmatic</strong> Options.</p>
+<p class="center"><img src="assets/images/2-general-options.png" alt="General Tab of Enigmatic Options"/></p>
+.
+
+<p><i>Slider Choice</i> - <strong>Enigmatic</strong> comes with three responsive Slider options including the premium Revolution Slider for building a rich home pages for your website. The Revolution Slider is bundled with the theme and comes with its own documentation. Do refer to the same for help with Revolution slider. Do check our <a title="Enigmatic Live Preview" href=" http://www.portfoliotheme.org/enigmatic"><strong>Enigmatic</strong> live preview website</a> for many different types of home page formats that are available for use by the users. </p>
+<p><b>To know more about how to add sliders to a page, go the section <a href="#slider-entry">How to Add Slides for Sliders</a></b></p>
+<p>Theme Skin - <strong>Enigmatic</strong> comes with a total of 7 skins. Additional customizations help you build your own skin by just choosing the desired <a href="#font-colors-backgrounds">Font, Color and Backgrounds options</a> in options panel</p>
+<p><i>Thumbnail Generation</i> - <strong>Enigmatic</strong> provides option to the user to use either TimThumb or WordPress native thumbnail generation method.</p>
+<strong>TimThumb -</strong> While TimThumb is more flexible and is needed when you want to create images of custom height and width on the fly (as and when the web request comes in), it can run into issues with setup if file permissions are not set right on your WordPress installation or if GD PHP library is not installed on your hosting server.</p>
+<p><strong>WordPress -</strong> WordPress thumbnail generation of various sizes occurs right when you upload the image to WordPress (when adding to a post or page, for example or when you add a new item under Media subpanel in the admin screen). If you enable <strong>Enigmatic</strong> on an existing website with images already uploaded, use <a title="Regenerate Thumbnails Plugin" href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">Regenerate Thumbnails WordPress Plugin</a> to generate thumbnails for images already uploaded to the WordPress site. This will help generate images of sizes required by <strong>Enigmatic</strong> for its blog, portfolio pages/posts of various configurations.
+<strong>Enigmatic</strong> tries to keep the number of image sizes generated to minimal number with additional sizes achieved through CSS re-sizing on the generated files when quality is not compromised by such resizing.</p>
+
+
+<hr/>
+
+<h3 id="header"><strong>C) Logo and Header Options</strong> - <a href="#toc">top</a></h3>
+
+<p><b>Enigmatic Logo Options Panel</b> allows the user to upload logo image. Option to forego image logo and go for text also is provided. Provide the right height and spacing in the options panel to place the logo in the precise location of your choice. </p>
+<p class="center"><img src="assets/images/2-site-logo.png" alt="Logo Option Panel"/></p>
+
+<p><b>Enigmatic Header Options Panel</b> allows the user to manage the top header area of a page. </p>
+<i>Tagline for Blog Post</i> - For blog post, specify the text to display in this area. 'Blog' is the default. Unlike blog posts, the tagline area of a page displays the page title.</p>
+Remove tagline from Home Page - Remove tagline displayed on top of the home page (the default WordPress blog view shown when no static page is specified as home page).
+<p class="center"><img src="assets/images/8-header-options.png" alt="Header Option Panel"/></p>
+
+
+<hr/>
+
+<h3 id="footer"><strong>D) Footer Options</strong> - <a href="#toc">top</a></h3>
+<p>Footer area of <strong>Enigmatic</strong> is quite flexible with many different options on number of widgets you can place and how you want them to be arranged. The Widget panel lists a total of six Footer areas to which you can drag and drop a WordPress native widgets as well as widgets provided by <strong>Enigmatic</strong>.</p>
+Footer Columns - Along with providing simple option of having equal sized 2,3,4,5,6 columns, you also have options to
+specify how the footer widgets need to be arranged.
+Google Analytics Code - <strong>Enigmatic</strong> is Google Analytics ready. To start tracking users, signup for <a href="http:/www.google.com/analytics">Google analytics</a>, obtain the tracking code and paste it into this text box to start tracking user activity for your website.</p>
+
+<p class="center"><img src="assets/images/9-footer-options.png" alt="Footer Option Panel"/></p>
+
+
+<hr/>
+
+<h3 id="layout-management"><strong>E) Layout Management Options</strong> - <a href="#toc">top</a></h3>
+
+<p><strong>Enigmatic</strong> supports single column, 2 column and 3 column layouts for static pages, portfolio pages as well as blog posts. The options panel helps change the layouts for static pages, blog pages and archive pages like those of categories, tags or authors. The <a href="http://portfoliotheme.org/enigmatic/" title="Enigmatic Live Preview site">Enigmatic Live Preview Site</a> showcases many of these layouts and styling (see below) to help familiarize the user with them.</p>
+
+<p class="center"><img src="assets/images/10-layout-management.png" alt="Layout Management"/></p>
+
+<p><i>Archive Pages Styling and Blog Styling</i> - <strong>Enigmatic</strong> provides flexibility to change the styling for blog pages like archives, pages with blog templates etc. with three options - Thumbnail, Grid and Full Image. Use Archive Pages and Blog Styling entries to specify styling options.</p>
+<hr/>
+
+<h3 id="font-colors-backgrounds"><strong>F) Fonts, Colors and Backgrounds Options</strong> - <a href="#toc">top</a></h3>
+<p><b>Enigmatic</b> provides options to change font family, font size and font spacing for your Headings and Body. More than 500 fonts are available for use. If you need additional fonts, you may import and use the same with the help of the <a href="#custom-css"> Custom CSS</a> panel in theme options. Do visit <a href="http://www.google.com/webfonts">http://www.google.com/webfonts</a> for instructions on adding additional fonts through css.</p>
+
+<p class="center"><img src="assets/images/3-font-options.png" alt="Fonts Options Pane"/></p>
+
+<p>Enigmatic comes with extraordinary amount of customizations for colors. Most of these options helps build a custom website for yourself with your custom fonts, custom colors, backgrounds, banners, icons etc. </p>
+<p>Choose the right colors for your website to come up with a unique looking site where every element blends well with every other one. If you do not want to meddle too much with heading or body font colors, choose the option 'Skin Font Color' which replaces the text color for a skin in a way that text or link colors chosen for various elements blend well with each other.</p>
+
+<p class="center"><img src="assets/images/4-color-options.png" alt="Color Options Pane"/></p>
+
+<p>Choosing the right backgrounds for your site can greatly enhance its appeal. Almost any part of any Enigmatic page can be customized for its background. </p>
+<p>Choose boxed layout for that extra effect when setting custom backgrounds. Most of these are straightforward and online contextual help should explain the purpose of each customization.</p>
+
+<p class="center"><img src="assets/images/5-background-options.png" alt="Backgrounds Options Pane"/></p>
+
+<hr/>
+
+<h3 id="primary-menu-options"><strong>G) Primary and Sticky Menu Options - How to add Navigation Menus to your site.</strong> - <a href="#toc">top</a></h3>
+<p>Pls visit <a href="http://codex.wordpress.org/WordPress_Menu_User_Guide">WordPress Menu User Guide</a> to know more about how to add menus to WordPress site.</p>
+
+<p>Below you can see options to customize the primary menu shown on the top header of any page - </p>
+
+<p class="center"><img src="assets/images/7-primary-menu-options.png" alt="Primary Menu Options"/></p>.
+
+<h3 id="sticky-menu">Sticky Menu</h3>
+<p>Creation of sticky menu requires that you define and choose a menu item in the menu editor WordPress admin page as shown below. The sticky menu is disabled for smartphones and tablets. </p>
+
+<p class="center"><img src="assets/images/38-sticky-menu.png" alt="Defining Sticky Menu"/></p>
+
+<hr/>
+
+<h3 id="custom-css"><strong>H) Custom CSS </strong> - <a href="#toc">top</a></h3>
+<p>No matter how many font, color and backgrounds you have on the options panel, there is always some custom CSS code that you may like to see applied to achieve that perfect look. Use Custom CSS tab to override or extend every other option, including the styles defined by skins.
+This Custom CSS is handy when you can't find the option you want or just in a mood to write CSS code instead of choosing an option.</p>
+
+<p class="center"><img src="assets/images/15-custom-css.png" alt="Custom CSS"/></p>
+
+<hr/>
+
+<h3 id="portfolio-page"><strong>I) Portfolio Page Options - How to make Portfolio Entries</strong> - <a href="#toc">top</a></h3>
+
+<p><strong>Enigmatic</strong> provides following page templates for building your portfolio pages as shown below. Use these
+templates to customize your portfolio pages in the page edit window.</p>
+
+<p class="center"><img src="assets/images/31-portfolio-templates.png" alt="Portfolio Page Templates"/></p>
+
+You can specify that the excerpts be shown in the Portfolio Pages through the below options.
+
+<p class="center"><img src="assets/images/11-portfolio-options.png" alt="Portfolio Page Options"/></p>
+
+<p>You can enter portfolio pages by choosing to add Portfolio Custom Post Type in the Portfolio Admin Panel as shown below</p>
+
+<p class="center"><img src="assets/images/29-portfolio-admin-panel.png" alt="Portfolio Admin Panel"/></p>
+
+<p>More precise instructions on portfolio entry below - </p>
+
+If you want to add a new portfolio item, follow the steps below:
+<ol>
+<li><p>Click "<span class="panel_title">Add New</span>" in the "<span class="panel_title">Portfolio</span>" panel.</p>
+	<p class="center"><img src="assets/images/31-new-portfolio-entry.png" alt="Portfolio Page Entry"/></p>
+</li>
+<li>Portfolio thumbnail is specified by <strong>Featured Image</strong> function of WordPress. Go <a href="#setfeatured">here</a> to see how to set a <strong>Featured Image</strong> for a post, page or a
+custom post type in WordPress.
+</li>
+<li>Then specify the title, and add content to the rich text editor. You can also provide excerpt through to the
+<strong>Excerpt</strong> textarea for display in the portfolio page.
+</li>
+<li>Once you have done, click <strong>Publish</strong> button.</li>
+</ol>
+
+<p class="center"><img src="assets/images/30-portfolio-entered.png" alt="Portfolio Page Entered"/></p>
+
+
+<hr/>
+
+
+<h3 id="slider-entry"><strong>J) How to Add Slides for Sliders</strong> - <a href="#toc">top</a></h3>
+
+<p>The Slider options panels for each of the slider types are self-explanatory. Slider entries of custom post type that
+corresponds to a slider have to be created before Slider can be displayed. See section above for more information.</p>
+<p>To create a page with sliders on the top, you will need to create a static page in WordPress and choose the <strong>Enigmatic</strong> with page template <b>Advanced Home Page</b> as your template under <i>Page Attributes</i> section of your Page Edit panel. The static page created using the template 'Advanced Home Page' can be standalone page with sliders on the top without being a home page.</p>
+
+<p class="center"><img src="assets/images/28-homepage-creation.png" alt="Home Page Creation with Slider"/></p> 
+
+<p>Once saved, then go to Settings -&gt;Reading page shown below to choose this page as the static page as Front Page for your website.
+<p class="center"><img src="assets/images/32-reading-settings.png" alt="Setting Custom Home Page in WordPress "/></p>
+The data and images required for the Sliders are sourced as explained below. This provides for rich customization of the site with the option to showcase multiple types of data on the website.</p>
+<p><strong>Revolution Slider</strong>The Revolution Slider is installed as a plugin into WordPress. Pls read <a href="http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/">plugin install guide</a> for instructions on how to install plugins into WordPress. The Revolution Slider is bundled with the theme as a separate zip file. </p>
+To display Revolution Slider on your site, perform the following steps - 
+<ol>
+<li>Create a new WordPress page with page template (see bottom right of page edit window) Advanced Home Page. 
+<p class="center"><img src="assets/images/28-homepage-creation.png" alt="Home Page Creation"/></p>
+<li>Go to theme options for <a href="#general">General Options</a> and check "Disable Sliders in Home Page" option. This will ensure the built-in sliders for the theme -Nivo and FlexSliders are disabled for the home page.</li>
+<p class="center"><img src="assets/images/27-disable-sliders.png" alt="Disable Sliders"/></p>
+<li>Next open the WordPress widgets panel (<a href="http://codex.wordpress.org/Appearance_Widgets_Screen">more information</a>), locate the widget named "Revolution Slider".</li>
+<li>Drag and Drop the "Revolution Slider" widget into widget area named "Home Page Slider Area". Open the home page created above in the first step to view the Revolution Slider activated on it</li>
+<p class="center"><img src="assets/images/19-revolution-slider-widget.png" alt="Revolution Slider Widget Area"/></p>
+<li>You can browse through the Revolution Slider documentation on how to use the admin panel for the slider. </li>
+<p class="center"><img src="assets/images/22-revolution-slider.png" alt="Admin Panel for Revolution Slider"/></p>
+<li>The theme comes with import data for the Revolution Slider instance displayed in the <a href="http://portfoliotheme.org/enigmatic/">live preview page</a>.Do refer to the documentation for Revolution Slider for help on importing the data.</li>
+<p class="center"><img src="assets/images/25-revolution-slider-import.png" alt="Revolution Slider Import Data 1"/></p>
+<p class="center"><img src="assets/images/26-revolution-slider-import2.png" alt="Revolution Slider Import Data 2"/></p>
+</ol>
+<p><strong>Nivo Slider, FlexSlider</strong>- This slider displays posts created of type Showcase Slide custom post type. You will need to create posts of this custom post type in the Showcase Slides admin panel.<br />
+<b>Nivo Slider and FlexSlider</b> - The Nivo and Flex Sliders derive their slides from the Showcase Slide custom post types as shown below.</p> 
+<p class="center"><img src="assets/images/21-showcase-slides.png" alt="Showcase Slides"/></p>If you want to add a new slide for the Nivo or an Flex slider, here are the steps:
+<ol>
+<li><p>Click "<span class="panel_title">Add New Slide</span>" in the "<span class="panel_title">Showcase Slides</span>" admin panel.</p>
+<p class="center"><img src="assets/images/33-showcase-slides.png" alt="Slider Slide Entry"/></p></li>
+<li>Use the <strong>Featured Image</strong> function to set the image for the Slide of the Slider.  The image size for Flex as well Nivo Slider should be minimum 1920px width and minimum 600px height so as to render the slider images right on wide screens. Be aware that the theme crops the images to height of 600px when the height is larger than that number. If you need a slider of larger and smaller height, you can opt to change the height in the options panel. For best results, keep the image size width the same for all images and height minimum of 600px. Click <a href="#setfeatured">here</a> to see how to set a <strong>Featured Image</strong>.</li>
+<li>Specify the link, description (Showcase Slider Information) , click <strong>Publish</strong> Button.</li>
+</ol>
+
+<p>Below are the options provided for Nivo sliders.</p>
+
+<p><b>Flex Slider Options</b></p>
+
+<p class="center"><img src="assets/images/12-flex-slider-options.png" alt="Flex Slider Option Panel"/></p>
+
+<p><b>Nivo Slider Options</b> </p>
+
+<p class="center"><img src="assets/images/13-nivo-slider-options.png" alt="Nivo Slider Option Panel"/></p>
+
+<hr/>
+
+<h3 id="set-featured-image"><strong>K) Set Featured Image</strong> - <a href="#toc">top</a></h3>
+Featured Images function of WordPress is central to specifying thumbnail images posts, portfolio items, slider items
+etc. If you want to set <strong>Featured Image</strong> for page, post, or custom post types like portfolio or slider
+slides, follow the steps below:
+<ol>
+<li>Go to <strong>Add New</strong> or open an existing post in editing mode.</li>
+<li><p>Find the <strong>Featured Image</strong> section and click the <strong>Set featured image</strong> link.</p>
+<p class="center"><img src="assets/images/31-new-portfolio-entry.png" alt="Setting Featured Image for a Portfolio"/></p>
+</li>
+<li>You will see popup window for <a href="http://en.support.wordpress.com/images/#uploading-images"
+ target="_blank">uploading an image</a> for inserting into a blog post, page or
+custom post type or for using this image as featured image on the post, page or custom posts. Follow the
+on-screen prompts to choose the image from your computer (or better drag and drop the one or more images into
+the file uploader) and upload it or choose one one of the images already uploaded to your Media Library.
+</li>
+<li><p>Once the image is uploaded, choose the size of the image, and click on the Use as featured link:</p>
+<p class="center"><img src="assets/images/set-featured-image.png" alt="Set Featured Image"/></p>
+Close the Set Featured Image window once you’ve chosen the featured image. The image is now available for use
+wherever the post, portfolio item or slider slide is displayed as in a slider or portfolio page.
+</li>
+</ol>
+
+<hr/>
+
+<h3 id="video"><strong>L) Video Options</strong> - <a href="#toc">top</a></h3>
+<p>The Video options panel helps set the default height and width for videos and only take effect if custom width and
+height are not specified within the shortcode itself.</p>
+<p class="center"><img src="assets/images/14-video-options.png" alt="Video Option Panel"/></p>
+
+
+<hr/>
+
+
+<h3 id="shortcode-helper"><strong>M) Shortcodes and Shortcodes Helper</strong> - <a href="#toc">top</a></h3>
+<p><strong>Enigmatic</strong> comes with nearly 80 custom shortcodes that can be used inside your post or page content. The <a href="http://www.portfoliotheme.org/enigmatic/">Enigmatic Live Preview</a> site has many pages listed for demo of shortcodes with their corresponding code and is a good resource for familiarizing yourself with the the shortcodes provided by <strong>Enigmatic</strong>. </p>
+
+<p>We have documented below a few shortcode whose usage is not apparent at first look or which have not been covered in the preview site shortcode pages</p>
+<h3 id="segment-shortcode">The [segment] shortcode</h3>
+<p>Any full width or home page created in the Enigmatic theme is divided into multiple segments. The sample data bundled with the theme has examples of many pages broken into multiple full width segments with the help of [segment] shortcode. The <strong>[segment]</strong> shortcode is used across all home pages and many other full width pages in Enigmatic. The Enigmatic theme provides unlimited flexibility when creating full width pages - pages that, by default, span the entire browser/screen width instead of being limited to a 960px or 1140px grid ( typical of any blog influenced WordPress template). The job of the [segment] shortcode is to help provide top and bottom 70px padding between next and previous segment and constrain the segment content width to a 1140px grid while allowing you to set image backgrounds, background patterns or colors that span the entire browser width. You are free to use a custom markup of your choice if you do not want to use [segment] shortcode - like if you want the content to occupy the browser width or if you want a wider/narrower layout. <p>
+<p>The [segment] shortcode creates a wrapper HTML element that can take background options and an inner content HTML div element that houses the content constrained to 1140px grid. Usage of [segment] shortcode is below - </p>
+<p>
+<strong>[segment id='my-element' class='my-class' style='margin-top:30px;'  background_url='http://example.com/image1.jpg' background_color='#46a5d5' content_class='inner-content' content_style='margin-top:20px;']</strong>
+</p>
+<p>
+<strong>[segment id='my-element' class='my-class' style='padding:0;' background_pattern='http://example.com/pattern1.png' background_color='#46a5d5']</strong>
+</p>
+</p>
+All parameter values are optional and they are are explained below - 
+<p><strong>id</strong> - The id of the wrapper HTML element created by the segment shortcode.<br>
+<strong>class</strong> - The CSS class of the HTML element wrapping the content.<br>
+<strong>style</strong> - Any inline styling you would like to apply to the segment. You may want to override the default top/bottom padding, provide custom markup for backgrounds etc.<br>
+<strong>background_url</strong> - Provide the URL of the background image. See examples in the sample data provided with the theme. The image supplied is not repeated and is scaled to occupy the entire segment width (same as browser width).<br>
+<strong>background_pattern</strong> - As an alternative to 'background_url' option above, you can provide the URL of the background image which acts like a pattern. This image is repeated horizontally as well as vertically to help occupy the entire segment width (same as browser width).<br>
+<strong>background_color</strong> - The background color to be applied to the segment that spans the entire browser width.<br>
+<strong>content_class</strong> - The CSS class to be applied to the inner content DIV which is constrained to a 1140px grid. <br>
+<strong>content_style</strong> - Any inline styling that you need to have applied to the inner content DIV constrained to the 1140px grid. <br>
+
+<h3>The [project_showcase] shortcode</h3>
+<p>The <strong>[project_showcase]</strong> can be used to showcase your recent blog posts and your recent portfolio items in a 4 column grid. This shortcode can be placed anywhere in the editor to display two tabs that display portfolio items and blog posts.<p>
+<p>
+<strong>[project_showcase portfolio_tab_text='My Work' blog_tab_text='Recent Posts']</strong>
+</p>
+The optional parameter values are explained below - 
+<p><strong>portfolio_tab_text</strong> - The title of the tab that displays the portfolio items.<br>
+<strong>blog_tab_text</strong> - The title of the tab that displays the blog posts.<br>
+
+<h3>The [contact_form] shortcode</h3>
+
+<p>The [contact_form] shortcode is documented <a href="#contact-form">below</a> in a separate section. </p>
+
+<h3>Shortcodes Helper</h3>
+<p>You can easily use Shortcodes with the help of Shortcode Helper tool accessible from the WordPress post/page editor.</p>
+<p class="center"><img src="assets/images/shortcode-helper-1.png" alt="Shortcode Helper"/></p>
+Simply select the shortcode you would like to use then click "<strong>Insert</strong>" button to insert the shortcode
+into the post editor.</p>
+
+<p class="center"><img src="assets/images/shortcode-helper-2.png" alt="Shortcode Helper"/></p>
+
+<p>Fill in the required details of shortcode attributes on the shortcode entered.
+
+<hr/>
+
+<h3 id="contact-form"><strong>N) Contact Form Shortcode</strong> - <a href="#toc">top</a></h3>
+<p>To add a contact form to your website, first create a blank page and then use Shortcode Helper to add Contact Form shortcode listed under Social Shortcodes. Also see our live preview page for <a href="http://portfoliotheme.org/enigmatic/contact-form-shortcode/">Contact Form shortcode</a></p>
+
+<p class="center"><img src="assets/images/contact-form-shortcode.png" alt="Contact Form Shortcode"/></p>
+<p>Enter in the email address to which you want the email to be received. Once the theme is setup, test out the Contact Form functionality. The <strong>Contact Form</strong> function utilizes <a href="http://codex.wordpress.org/Function_Reference/wp_mail" target="_blank">wp_mail</a> function to send emails. If emails are not being received, please make sure the contact email entered is the right one and then check
+with your hosting provider to make sure SMTP and smtp_port have been setup right on your server. Or you can install a Plugin like the <a href="http://wordpress.org/extend/plugins/configure-smtp/" target="_blank">Configure SMTP</a> plugin for Wordpress to configure SMTP.</p>
+
+<hr/>
+
+<h3 id="widgets-sidebars"><strong>O) Custom Widgets and Sidebars</strong> - <a href="#toc">top</a></h3>
+<strong>Enigmatic</strong> comes with 9 custom widgets:
+<ol>
+<li><i>Flickr</i>: Displays thumbnails from the Flickr ID specified.</li>
+<li><i>Twitter</i>: Displays tweets for the Twitter id provided.</li>
+<li><i>Social Icon</i>: Displays the social media icons .</li>
+<li><i>Contact Form</i>: Displays a contact form.</li>
+<li><i>Contact Info</i>: Displays a contact information.</li>
+<li><i>Popular Posts</i>: Displays the popular posts on your site.</li>
+<li><i>Recent Posts</i>: Displays the popular posts on your site.</li>
+</ol>
+<p>Simply drag one of your theme's custom widgets to a sidebar and enter the appropriate settings if needed. Enigmatic also
+has several sidebars as shown in the image below.</p>
+
+<p class="center"><img src="assets/images/34-enigmatic-sidebars.png" alt="Custom Widgets and Sidebars"/></p>
+
+<hr/>
+
+<h3 id="page-templates"><strong>P) Template Pages</strong> - <a href="#toc">top</a></h3>
+<p><strong>Enigmatic</strong> comes with 15 WordPress template pages that you can select when you edit/publish a page from
+the “Edit Page” “<strong>Attributes</strong>” settings box as seen below:</p>
+<p class="center"><img src="assets/images/31-portfolio-templates.png" alt="Custom Page Templates"/></p>
+Some of the important ones are:
+<ol>
+<li>Advanced Home Page:Displays content across full width of the browser window unless you specify the <strong>[segment]</strong> shortcode (see documentation of the shortcode under <a href="#segment-shortcode">shortcodes</a> section) to constrain the content to 1140px centered grid. Displays no sidebars. </li>
+<li>Full Width: Displays content across full width of the browser window unless you specify the <strong>[segment]</strong> shortcode to constrain the content to 1140px centered grid. Displays no sidebars.</li>
+<li>One Column No Sidebars: Displays content content constrained to 1140px content grid by default. A page created with this template does not span across the entire browser window width (unlike the Full Width template) and hence does not require you to use [segment] shortcode to constrain content to a 1140px grid. Displays no sidebars.</li>
+<li>Left Sidebar :Displays the theme's sidebar on the left side of the page.</li>
+<li>Right Sidebar/Default :Displays the theme's sidebar on the right side of the page - the default layout for a page/post.</li>
+<li>Portfolio 3 Columns: Displays the portfolio items in the a 3 column grid. Similar pages available for 2 column and 4 column display of portfolio items.</li>
+<li>Blog: Displays the blog posts on the page. The nature of display- full width, grid, thumbnail etc. can be configured through the options panel as depicted under <a href="#layout-management">layout management</a></li>
+</ol>
+To activate one of your theme's page templates simply select it from the drop-down box and then click the “<strong>Publish</strong>”
+or “<strong>Update</strong>” button.
+
+<hr/>
+
+<h3 id="translation"><strong>Q) Translate</strong> - <a href="#toc">top</a></h3>
+<p>You can learn from <a href="http://codex.wordpress.org/Translating_WordPress">here</a> about translating your site into your language. Use the enigmatic.pot in 'enigmatic/languages' folder as a template to create .po files. <a href="http://www.poedit.net/">Poedit</a> is the popular free editor for creating .po and the corresponding binary .mo files. Do reach out to us in case you find something that is not translation ready.</p>
+
+<hr/>
+
+<h3 id="icon-fonts"><strong>R) 500+ Icons and Icon Fonts usage</strong> - <a href="#toc">top</a></h3>
+<p>The list of icons bundled with the theme is listed here - 
+
+<a href="http://portfoliotheme.org/support/wp-content/uploads/icon-sprites/index.html" title="Icon Fonts bundled with Enigmatic Theme" target="_blank" rel="nofollow">Icon Fonts bundled with Enigmatic</a>
+
+To use the icons, you just insert a markup like <pre>&lt;span class="icon-pencil"&gt;&lt;/span&gt;</pre> or some prefer <pre>&lt;i class="icon-pencil"&gt;&lt;/i&gt;</pre> to display the icon. </p>
+
+<p>The above link provides you with the class names to use to display the corresponding icon. These font icons can be styled in CSS for color and size. You can utilize the custom.css file or the Custom CSS tab in the options panel to insert styling information like this - </p>
+
+<pre>#my-section i { font-size: 32px; color: #333; }. </pre>
+
+<p>Do look for some examples of the usage in the demo content provided with the theme. </p>
+
+<p>Although I am not going to recommend it, theoretically you can use inline styling as well to scale the icon and color it like this - </p>
+
+<pre>
+&lt;i class="icon-switch" style="color:blue; font-size:48px;"&gt;&lt;/i&gt;. 
+</pre>
+<p>If you cannot insert HTML markup into your content as explained above, you may want to look at the option of using icon sprites or icon images bundled with the theme in the folder <strong>[theme directory]/images/icons/icomoon/</strong>. The sprites folder has information on icons available in the sprite and the <strong>[theme directory]/images/icons/icomoon/sprites.css</strong> file has required markup to use these sprites.  </p>
+<hr/>
+
+<h3 id="unlimited-sidebars"><strong>S) Unlimited Sidebars</strong> - <a href="#toc">top</a></h3>
+<p>The creation of unlimited custom sidebars is depicted below. Essentially, the custom sidebars are created in the 'Sidebar' options tab in options panel and the user gets to choose the required sidebar in the post/page edit window.</p>
+
+<p class="center"><img src="assets/images/35-custom-sidebar-widgets1.png" alt="Unlimited Sidebars"/></p>
+
+<p>The custom sidebars defined will appear in the widgets WP admin page. Drag and drop the required widgets into the sidebars</p>
+
+<p class="center"><img src="assets/images/36-custom-sidebar-widgets2.png" alt="Custom Sidebar Widgets"/></p>
+<p>In the page/post edit window, choose the custom sidebar of your choice or leave default as the choice to help theme defined widgets panels to take effect.</p>
+
+<p class="center"><img src="assets/images/37-custom-sidebar-widgets3.png" alt="Specifying Custom Sidebars"/></p>
+
+<hr/>
+
+<h3 id="custom-headers"><strong>T) Custom Titles and Headers for pages/posts</strong> - <a href="#toc">top</a></h3>
+<p>Enigmatic offers unlimited flexibility in creating a custom header for a page/post. The above the fold content for any page/post can be configured through custom content by specifying the required markup and/or backgrounds through the input boxes provided in the page/post edit window in the WordPress admin panel as shown below. You may use <a href="#segment-shortcode"><strong>[segment]</strong></a> shortcode to constrain the headings to a 1140px centered grid. </p>
+
+<p class="center"><img src="assets/images/39-post-header-options.png" alt="Custom Headers for Posts/Pages"/></p>
+<hr/>
+
+Again, thank you so much for purchasing our theme. We will be glad to help, resolve issues for you, answer your questions and plan to provide updates to you. Since <strong>Enigmatic</strong> is built on common framework, we expect that any updates we do for any of our themes will be released as a framework update for all of our themes. For more general questions on WordPress or on ThemeForest themes, do visit the active forums maintained by them.
+<p class="append-bottom alt large"><strong>LiveMesh</strong></p>
+<a href="#toc">Go To Table of Contents</a>
+
+<hr class="space"/>
+</div>
+<!-- end div .container -->
+</body>
+</html>
