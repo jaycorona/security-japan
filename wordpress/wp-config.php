@@ -1,6 +1,6 @@
 <?php
 
-
+define( 'WP_MEMORY_LIMIT', '96M' );
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'security-japan');
