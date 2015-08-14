@@ -3,33 +3,95 @@
 body {
 	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN",
 		"HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	color: #747474;
 }
 
-.fusion-three-fifth.fusion-column-last  .fusion-column-wrapper {
-	padding: 0 !important;
+#post-3298 .post-content .section1 .fusion-row {
+	text-align: center !important;
 }
 
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper h3, 
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper h4,  
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper span, 
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper 
-ul.fusion-checklist-1, .fusion-three-fifth.fusion-column-last 
-.fusion-column-wrapper ul.fusion-checklist-1 .fusion-li-item {
+#post-3298 .post-content .section1 .fusion-row .fusion-layout-column, 
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last .title,
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last .title  h4,
+#post-3298 .post-content .section1 .fusion-row .fusion-checklist, #post-3298 
+.post-content .section1 .fusion-row .fusion-checklist .fusion-li-item, 
+#post-3298 .post-content .fusion-fullwidth .fusion-row ul {
 	margin: 0;
 }
 
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper h3 span, 
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper h4 span {
+#post-3298 .post-content .section1 .fusion-row .fusion-layout-column {
+	float: none;
+	max-width: 375px;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last {
+	text-align: left;
+	padding: 10px 0 0 10px;
+}
+
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last .title  h4 {
+	color: #000080;
+	font-size: 14px;
 	font-weight: bold;
 }
 
-.fusion-three-fifth.fusion-column-last .fusion-column-wrapper h3 {
-	font-size: 14px !important;
-	line-height: 30px !important;
+#post-3298 .post-content .section1 .fusion-checklist 
+.fusion-li-item .fusion-li-item-content {
+	color: blue;
+	display: inline-block;
+	border-bottom: 1px solid blue;
+	margin-left: 0 !important;
+	line-height: 1;
 }
 
-.fusion-three-fifth.fusion-column-last  .fusion-column-wrapper h4 {
-	display: inline-block;
-	width: 288px;
-	padding: 5px 0;
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last 
+.title {
+	padding: 10px 0;
 }
+
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last 
+.fusion-title h5 {
+	color: #ff0000;    
+	line-height: .6;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#post-3298 .post-content .section1 .fusion-row .fusion-column-last p {
+	padding-top: 5px;
+	max-width: 340px;
+	line-height: 1.3;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+#post-3298 .post-content .fusion-fullwidth-2 .fusion-row,
+#post-3298 .post-content .fusion-fullwidth-3 .fusion-row,
+#post-3298 .post-content .fusion-fullwidth-4 .fusion-row {
+	max-width: 753px;
+}
+
+#post-3298 .post-content .fusion-fullwidth-2 .fusion-row {
+	border: 2px solid #dd3333;
+	padding-top: 10px;
+}
+
+#post-3298 .post-content .fusion-fullwidth .fusion-row ul li,
+#post-3298 .post-content .fusion-fullwidth-4 .fusion-row .fusion-one-full {
+	margin-bottom: 0 !important;
+}
+
+#post-3298 .post-content .fusion-fullwidth-2 .fusion-row ul li div {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#post-3298 .post-content .fusion-fullwidth-2 .fusion-row p {
+	padding: 0 5px;
+	line-height: 1.3;
+}
+
+#post-3298 .post-content .fusion-fullwidth-3 .fusion-row
