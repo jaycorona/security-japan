@@ -6,6 +6,7 @@ body {
 	color: #747474;
 }
 
+/* Top-page Styling */
 #post-3298 .post-content .section1 .fusion-row, .fusion-footer, #footer {
 	text-align: center !important;
 }
@@ -68,12 +69,12 @@ body {
 	font-size: 12px;
 }
 
-#post-3298 .post-content .fusion-fullwidth-2 .fusion-row,
-#post-3298 .post-content .fusion-fullwidth-3 .fusion-row,
-#post-3298 .post-content .fusion-fullwidth-4 .fusion-row,
-#post-3298 .post-content .fusion-fullwidth-5 .fusion-row,
-.fusion-footer .fusion-row, #footer.fusion-footer-copyright-area .fusion-row {
-	max-width: 753px;
+.fullwidth-box .fusion-row, #post-3298 .post-content .fusion-fullwidth-2 
+.fusion-row, #post-3298 .post-content .fusion-fullwidth-3 .fusion-row,
+#post-3298 .post-content .fusion-fullwidth-4 .fusion-row, #post-3298 
+.post-content .fusion-fullwidth-5 .fusion-row, .fusion-footer .fusion-row, 
+#footer.fusion-footer-copyright-area .fusion-row {
+	max-width: 753px !important;
 }
 
 #post-3298 .post-content .fusion-fullwidth-2 .fusion-row {
@@ -83,7 +84,8 @@ body {
 
 #post-3298 .post-content .fusion-fullwidth .fusion-row ul li,
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .fusion-one-full,
-#post-3298 .post-content .fusion-fullwidth-5 .fusion-row .fusion-one-full {
+#post-3298 .post-content .fusion-fullwidth-5 .fusion-row .fusion-one-full,
+#post-3299 .post-content .fusion-fullwidth-3 .fusion-two-third {
 	margin-bottom: 0 !important;
 }
 
@@ -127,15 +129,97 @@ body {
 	padding-left: 30px;
 }
 
+/* Work Page Styling */
+#post-3299 .post-content .fusion-fullwidth-1 {
+	padding-bottom: 0 !important;
+}
+
+#post-3299 .post-content .fusion-fullwidth-1 p, 
+#post-3299 .post-content .fusion-fullwidth-2 p {
+	line-height: 1.2;
+	padding: 0px 80px;
+	font-size: 12px;
+}
+
+#post-3299 .post-content .fusion-fullwidth-2 .fusion-one-sixth {
+	float: none;
+	margin-right: 4px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#post-3299 .post-content .fusion-fullwidth-2 .fusion-one-sixth.left-margin {
+	margin-left: 80px;
+}
+
+#post-3299 .post-content .fusion-fullwidth-2 .fusion-one-sixth 
+.fusion-column-wrapper {
+	min-height: auto !important;
+	padding: 0 !important;
+}
+
+#post-3299 .post-content .fusion-fullwidth-2 .fusion-one-sixth 
+.fusion-column-wrapper p {
+	padding: 10px 10px 0 0;
+}
+
+#post-3299 .post-content .fusion-fullwidth-2 .fusion-one-sixth 
+.fusion-column-wrapper p a {
+	color: #00f;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#post-3299 .post-content .fusion-fullwidth-3 .fusion-one-third, 
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half {
+	margin-right: 0;
+}
+
+#post-3299 .post-content .fusion-fullwidth-3 .imageframe-align-center {
+	margin-bottom: 15px;
+}
+
+#post-3299 .post-content .fusion-fullwidth-3 .fusion-one-third 
+.fusion-column-wrapper, #post-3299 .post-content .fusion-fullwidth-3 
+.fusion-two-third .fusion-column-wrapper {
+	min-height: 0 !important;
+	line-height: 1.3;
+	font-size: 13px;
+}
+
+#post-3299 .post-content .fusion-fullwidth-3 .fusion-one-third 
+.fusion-column-wrapper .imageframe-align-center {
+	margin-left: 53px;
+}
+
+/* Introduction Page
+#post-3301 .post-content .fusion-fullwidth-1 p, #post-3301 .post-content 
+.fusion-fullwidth-2 p {
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 0px 96px;
+}
+
+#post-3301 .post-content .fusion-fullwidth-1 p span {
+	line-height: 2.5;
+}
+
+#post-3301 .post-content .fusion-fullwidth-1 
+.imageframe-align-center .top-margin {
+	margin-top: 20px;
+}*/
+
+/* Footer Styling */
 footer {
 	padding: 0 !important;
 	border-color: transparent !important;
+	background-color: #FDF004 !important;
 }
 
 #footer-content {
 	text-align: center;
 	color: #747474;
-	background-color: #FDF004;
 	padding: 10px 0;
 }
 
