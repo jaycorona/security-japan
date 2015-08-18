@@ -366,6 +366,30 @@ body {
 	font-size: 12px;
 }
 
+#post-16 .fusion-fullwidth-1 .fusion-recent-posts section {
+	max-height: 500px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-left: 70px;
+	margin-right: 70px
+}
+
+#post-16 .fusion-fullwidth-1 .fusion-recent-posts .fusion-column {
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+#post-16 .fusion-fullwidth-1 .fusion-recent-posts p {
+	line-height: 1.3;
+	font-size: 12px;
+}
+
+#post-16 .fusion-fullwidth-1 .fusion-recent-posts p.meta {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
 /* Footer Styling */
 footer {
 	padding: 0 !important;
