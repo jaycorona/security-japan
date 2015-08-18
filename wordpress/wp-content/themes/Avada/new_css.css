@@ -251,11 +251,7 @@ body {
 }
 
 /* Footer Styling */
-footer {
-	padding: 0 !important;
-	border-color: transparent !important;
-	background-color: #FDF004 !important;
-}
+
 
 #footer-content {
 	text-align: center;
