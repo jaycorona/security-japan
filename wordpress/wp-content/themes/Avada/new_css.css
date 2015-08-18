@@ -19,7 +19,9 @@ body {
 #post-3298 .post-content .fusion-fullwidth .fusion-row ul, #footer-content p,
 #post-3301 .post-content .fusion-fullwidth-4 .fusion-three-fifth 
 .fusion-column-wrapper h4, #post-3301 .post-content .fusion-fullwidth-5 
-.fusion-three-fifth .fusion-column-wrapper h4 {
+.fusion-three-fifth .fusion-column-wrapper h4,
+#post-3725 .fusion-fullwidth-1 .fusion-one-half, 
+#post-3725 .fusion-fullwidth-2 .fusion-one-full h4 {
 	margin: 0;
 }
 
@@ -89,7 +91,9 @@ body {
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .fusion-one-full,
 #post-3298 .post-content .fusion-fullwidth-5 .fusion-row .fusion-one-full,
 #post-3299 .post-content .fusion-fullwidth-3 .fusion-two-third,
-#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half  {
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half, #post-3725 
+.fusion-fullwidth-1 .tag-line .fusion-reading-box-container, #post-3725 
+.fusion-fullwidth-1 #title-1, #post-3725 .fusion-fullwidth-1 .tag-line {
 	margin-bottom: 0 !important;
 }
 
@@ -146,7 +150,7 @@ body {
 }
 
 /* Work Page Styling */
-#post-3299 .post-content .fusion-fullwidth-1 {
+#post-3299 .post-content .fusion-fullwidth-1, #post-3725 .fusion-fullwidth-1 {
 	padding-bottom: 0 !important;
 }
 
@@ -366,6 +370,7 @@ body {
 	font-size: 12px;
 }
 
+/* News page */
 #post-16 .fusion-fullwidth-1 .fusion-recent-posts section {
 	max-height: 500px;
 	overflow-y: scroll;
@@ -388,6 +393,50 @@ body {
 #post-16 .fusion-fullwidth-1 .fusion-recent-posts p.meta {
 	font-weight: bold;
 	margin-bottom: 5px;
+}
+
+/* Store Page */
+#post-3725 .fusion-fullwidth-1 .tag-line .reading-box {
+	padding: 0 10px;
+	margin: 0 50px;
+}
+
+#post-3725 .fusion-fullwidth-1 .tag-line .reading-box p {
+	margin-bottom: 0;
+}
+
+#post-3725 .fusion-fullwidth-1 .fusion-one-half .imageframe-3 {
+	margin-left: 77px;
+}
+
+#post-3725 .fusion-fullwidth-1 .fusion-one-half.fusion-column-last p {
+	font-size: 12px;
+	line-height: 1.3;
+	margin-top: 20px;
+}
+
+#post-3725 .fusion-fullwidth-2 .fusion-one-full .fusion-column-wrapper p {
+	font-size: 12px;
+	padding: 0;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+#post-3725 .fusion-fullwidth-2 .fusion-one-full .fusion-column-wrapper h4 {
+	margin-left: 6px;
+}
+
+#post-3725 .fusion-fullwidth-2 .fusion-one-full .fusion-column-wrapper {
+	margin: 0 66px;
+	padding: 50px 5px 30px 5px;
+}
+
+#post-3725 .fusion-fullwidth-2 .content-2 .fusion-column-wrapper {
+	padding-top: 0;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 /* Footer Styling */
