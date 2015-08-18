@@ -85,7 +85,8 @@ body {
 #post-3298 .post-content .fusion-fullwidth .fusion-row ul li,
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .fusion-one-full,
 #post-3298 .post-content .fusion-fullwidth-5 .fusion-row .fusion-one-full,
-#post-3299 .post-content .fusion-fullwidth-3 .fusion-two-third {
+#post-3299 .post-content .fusion-fullwidth-3 .fusion-two-third,
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half  {
 	margin-bottom: 0 !important;
 }
 
@@ -110,8 +111,8 @@ body {
 .fusion-button, #post-3298 .post-content .fusion-fullwidth-5 .fusion-row  
 .fusion-button.button-4, #post-3298 .post-content .fusion-fullwidth-5
 .fusion-row .fusion-button.button-5 {
-	background-color: transparent;
-	color: #00f;
+	background-color: transparent !important;
+	color: #00f !important;
 	padding: 0;
 	font-size: 15px;
 	text-align: left;
@@ -120,13 +121,25 @@ body {
 
 #post-3298 .post-content .fusion-fullwidth-5 .fusion-row .one_third p {
 	line-height: 1.5;
-	word-break: break-all;
-	padding-top: 5px;
+	font-size: 10px;
+	margin-bottom: 0px;
+	padding: 10px 7px 6px 7px;
+}
+
+#post-3298 .post-content .fusion-fullwidth-5 .fusion-row 
+.one_third.bottom-padding p {
+	padding-bottom: 7px;
 }
 
 #post-3298 .post-content .fusion-fullwidth-5 .fusion-row  
 .fusion-button.button-4 {
-	padding-left: 30px;
+	padding-left: 119px;
+	font-size: 12px;
+}
+
+#post-3298 .post-content .fusion-fullwidth-5 .fusion-row 
+.fusion-button.button-5 {
+	font-size: 12px;
 }
 
 /* Work Page Styling */
@@ -193,7 +206,7 @@ body {
 	margin-left: 53px;
 }
 
-/* Introduction Page
+/* Introduction Page */
 #post-3301 .post-content .fusion-fullwidth-1 p, #post-3301 .post-content 
 .fusion-fullwidth-2 p {
 	font-size: 12px;
@@ -208,7 +221,34 @@ body {
 #post-3301 .post-content .fusion-fullwidth-1 
 .imageframe-align-center .top-margin {
 	margin-top: 20px;
-}*/
+}
+
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half
+.fusion-column-wrapper {
+	margin-right: 23px;
+}
+
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half.left-margin 
+.fusion-column-wrapper {
+	margin-left: 90px;
+	margin-right: 0;
+} 
+
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half
+.fusion-column-wrapper p {
+	padding: 0 37px;
+}
+
+#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half.left-margin 
+.fusion-column-wrapper p {
+	padding: 0;
+}
+
+#post-3301 .post-content .fusion-fullwidth-3 p.p2 {
+	font-size: 12px;
+	line-height: 1.3;
+	padding: 0 145px;
+}
 
 /* Footer Styling */
 footer {
