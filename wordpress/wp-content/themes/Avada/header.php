@@ -178,7 +178,6 @@
 	<?php echo $smof_data['google_analytics']; ?>
 
 	<?php echo $smof_data['space_head']; ?>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/new_css.css" type="text/css">
 </head>
 <?php
 $body_classes = array();
