@@ -12158,3 +12158,8 @@ table {
 .contact-form tr td[colspan="2"] {
 	background: #fff;
 }
+
+.contact-form textarea {
+	width: 472px !important;
+	box-sizing: border-box;
+}
