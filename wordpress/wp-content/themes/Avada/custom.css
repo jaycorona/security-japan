@@ -1,0 +1,79 @@
+
+/* ------------ custom CSS ------------- */
+
+.contact-button {
+	background: #fff !important;
+	border-radius: 5px !important;
+	border: 1px solid #aaa;
+	color: #777;
+	outline: 0 none;
+}
+
+.contact-button:hover {
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+.contact-button:active {
+	background: #eee !important;
+}
+
+.contact-form tr td:nth-child(1){
+	background: #ffedec;
+	font-size: 14px;
+}
+.contact-form tr td[colspan="2"] {
+	background: #fff;
+}
+
+.contact-form textarea {
+	width: 472px !important;
+	box-sizing: border-box;
+}
+
+.contact-form {
+	display: block;
+	width: 100%;
+}
+
+.contact-form tbody {
+	display: block;
+	width: 100%;
+}
+
+.contact-form tr {
+	width: 100% !important;
+}
+
+.break {
+	display: none;
+}
+
+/* contact page responsive */
+
+
+
+@media screen and (max-width: 700px) {
+	.contact-form tr,
+	.contact-form tr td {
+		display: block;
+	}
+	.contact-form tr td {
+		white-space: normal !important;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.break {
+		display: block;
+		margin: 5px;
+	}
+	.contact-form tr td div,
+	.contact-form tr td input[type="text"],
+	.contact-form tr td textarea {
+		width: 100% !important;
+	}
+	
+	.table-1 {
+		overflow-x: hidden;
+	}
+}

@@ -943,7 +943,7 @@ function avada_scripts() {
 		}
 		
 		wp_enqueue_style( 'avada-stylesheet', get_stylesheet_uri(), array(), $theme_info->get( 'Version' ) );
-
+		wp_enqueue_style( 'avada-stylesheet-custom', get_template_directory_uri()."/custom.css");
 		if( isset( $smof_data['less_compiler'] ) && $smof_data['less_compiler'] == true ) {
 			wp_enqueue_style( 'avada-dynamic', $template_directory . '/assets/less/theme/dynamic.less', array(), $theme_info->get( 'Version' ) );
 
