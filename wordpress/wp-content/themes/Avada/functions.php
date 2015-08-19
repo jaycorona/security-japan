@@ -992,7 +992,8 @@ function avada_scripts() {
 			wp_enqueue_style( 'avada-rtl', $template_directory . '/assets/css/rtl.css', array(), $theme_info->get( 'Version' ) );
 		}
 	}
-}
+	wp_enqueue_script("custom-css",get_template_directory_uri()."/custom.js", array("jquery"));
+} 
 add_action('wp_enqueue_scripts', 'avada_scripts');
 
 add_filter('jpeg_quality', 'avada_image_full_quality');
