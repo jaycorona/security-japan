@@ -25,6 +25,15 @@ body {
 	margin: 0;
 }
 
+#post-3298 .fix-button .fusion-button {
+	color: #00f;
+	padding: 0;
+	text-align: left;
+	text-decoration: underline;
+	font-size: 12px;
+	background-color: transparent;
+}
+
 #post-3298 .post-content .section1 .fusion-row .fusion-layout-column {
 	float: none;
 	max-width: 375px;
