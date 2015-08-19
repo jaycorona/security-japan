@@ -642,6 +642,18 @@ footer {
 	display: none;
 }
 
+#post-16 .meta .meta-separator, #post-16 .meta span a {
+ display: none;
+}
+
+#post-3298 .fusion-checklist.fusion-checklist-3 .fusion-li-item-content {
+	font-size: 18px !important;
+	margin-bottom: 10px;
+}
+
+
+
+
 /* contact page responsive */
 
 
@@ -655,6 +667,41 @@ footer {
 	#post-3298 .fusion-imageframe,
 	#post-3298 .fusion-imageframe img {
 		width: 100%;
+	}
+	
+	
+	
+	#post-3299 .fusion-layout-column,
+	#post-3301 .fusion-column-wrapper {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	#post-3299 .fusion-column-wrapper {
+		text-align: center;
+	}
+	
+	#post-3301 .fusion-layout-column p,
+	#post-3301 .fusion-column-wrapper,
+	#post-3301 .p2,
+	#post-3301 .p2-2,
+	#post-3301 .fusion-row p{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	
+	#post-3301 .m01 {
+		line-height: normal;
+		font-size: 16px !important;
+	}
+	
+	#post-3301 .p2,
+	#post-3301 .p2-2 {
+		margin-top: 10px;
+	}
+	
+	#post-3301 .fusion-imageframe img {
+		border: 1px solid #ccc;
+		margin: 10px auto;
 	}
 }
 
