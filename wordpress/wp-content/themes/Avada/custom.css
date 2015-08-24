@@ -1,10 +1,107 @@
 @charset "UTF-8";
 
-body {
-	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN",
-		"HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	color: #747474;
+.center-text {
+	text-align: center;
 }
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, 
+		sans-serif !important;
+	color: #000 !important;
+}
+
+.fusion-row {
+	max-width: 890px !important;
+}
+
+/* Header Styling */
+.fusion-header-wrapper {
+	margin: auto;
+	max-width: 1000px !important;
+	width: 100%;
+	color: #000;
+}
+
+.fusion-logo {
+	float: none;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.fusion-secondary-header {
+	color: #000 !important;
+	border: none;
+	background-color: rgba(253,240,4,1) !important;
+}
+
+.fusion-header-v5 .fusion-sticky-header-wrapper .fusion-header .two-col {
+	padding-top: 10px;
+}
+
+.fusion-header-v5 .fusion-sticky-header-wrapper .fusion-header .two-col .col {
+	display: inline-block;
+	width: 49%;
+}
+
+.fusion-header-v5 .fusion-sticky-header-wrapper .fusion-header .two-col 
+.col-right {
+	text-align: right;
+	padding-top: 10px;
+}
+
+.fusion-header-v5 .fusion-sticky-header-wrapper .fusion-header p {
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.fusion-header-v5 .fusion-secondary-main-menu, .fusion-header-v5 
+.fusion-header {
+	border-bottom: 0 !important;
+}
+
+.fusion-header-v5 .fusion-main-menu ul {
+	padding: 9px 0;
+}
+
+.fusion-header-v5 .fusion-main-menu ul li {
+	min-width: 114px;
+	padding: 6px 21px;
+	vertical-align: middle;
+	border-radius: 5px;
+	background-color: #fff;
+	margin: 0 11px;
+	box-shadow: 2px 2px 5px #888;
+	padding: 0 2px 2px 0;
+}
+
+.fusion-header-v5 .fusion-main-menu ul li:hover {
+	box-shadow: 0 0 0 #888;
+	padding: 0;
+}
+
+
+.fusion-header-v5 .fusion-main-menu ul li a {
+	text-align: center;
+	height: auto;
+	border-top: 0;
+	line-height: normal;
+	padding: 2px;
+	font-weight: bold;
+}
+
+
 
 /* Top-page Styling */
 #post-3298 .post-content .section1 .fusion-row, .fusion-footer, #footer {
@@ -35,7 +132,6 @@ body {
 }
 
 #post-3298 .post-content .section1 .fusion-row .fusion-layout-column {
-	float: none;
 	max-width: 375px;
 	display: inline-block;
 	vertical-align: top;
@@ -83,11 +179,8 @@ body {
 	font-size: 12px;
 }
 
-.fullwidth-box .fusion-row, #post-3298 .post-content .fusion-fullwidth-2 
-.fusion-row, #post-3298 .post-content .fusion-fullwidth-3 .fusion-row,
-#post-3298 .post-content .fusion-fullwidth-4 .fusion-row, #post-3298 
-.post-content .fusion-fullwidth-5 .fusion-row, .fusion-footer .fusion-row, 
-#footer.fusion-footer-copyright-area .fusion-row {
+#post-3298 .fusion-fullwidth-2 .fusion-row, #post-3298 .post-content 
+.fusion-fullwidth-3 .fusion-row {
 	max-width: 753px !important;
 }
 
@@ -119,8 +212,25 @@ body {
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .one_third p {
 	border: 1px solid #000066;
 	line-height: 1.5;
-	padding: 10px;
+	padding: 8px;
 	word-break: break-all;
+	padding-left: 8px;
+}
+
+#post-3298 .post-content .fusion-fullwidth-4 .fusion-row .one_third 
+.fusion-imageframe {
+	width: 100%;	
+}
+
+#post-3298 .fusion-fullwidth-4 p, #post-3298 .fusion-fullwidth-5 p {
+	padding-left: 70px;
+}
+
+#post-3298 .fusion-fullwidth-4
+
+#post-3298 .fusion-fullwidth-4 .fusion-one-third span, #post-3298 
+.fusion-fullwidth-4 .fusion-one-third span img {
+	width: 100%;
 }
 
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .one_third 
@@ -156,6 +266,10 @@ body {
 #post-3298 .post-content .fusion-fullwidth-5 .fusion-row 
 .fusion-button.button-5 {
 	font-size: 12px;
+}
+
+#post-3298 .fusion-fullwidth-5 .fusion-one-third .fusion-column-wrapper {
+	height: 234px;
 }
 
 /* Work Page Styling */
@@ -449,7 +563,15 @@ body {
 footer {
 	padding: 0 !important;
 	border-color: transparent !important;
+	text-align: center;
+}
+
+footer .fusion-row {
 	background-color: #FDF004 !important;
+}
+
+.fusion-footer-copyright-area {
+	border-top: 0;
 }
 
 #footer-content {
@@ -502,6 +624,15 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
+	#post-3298 .fusion-fullwidth-4 p, #post-3298 .fusion-fullwidth-5 p {
+		padding: 0 !important;
+		line-height: 16px !important;
+	}
+	
+	#post-3298 .fusion-fullwidth-5 .fusion-one-third .fusion-column-wrapper {
+		height: auto;
+	}
+	
 	#post-3299 .post-content .fusion-fullwidth-2 p, #post-3299 .post-content 
 	.fusion-fullwidth-1 p, #post-3299 .post-content .fusion-fullwidth-2 p {
 		padding: 0 24px;
