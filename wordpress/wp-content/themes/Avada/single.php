@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header() ?>
 	<?php
 	$content_css = 'width:100%';
 	$sidebar_css = 'display:none';

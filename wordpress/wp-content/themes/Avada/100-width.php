@@ -1,6 +1,6 @@
 <?php
 // Template Name: 100% Width
-get_header(); ?>
+get_header() ?>
 	<div id="content" class="full-width">
 		<?php while(have_posts()): the_post(); ?>
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
