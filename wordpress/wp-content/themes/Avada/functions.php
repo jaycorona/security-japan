@@ -1583,3 +1583,12 @@ function avada_layerslider_ready() {
 	}
 }
 add_action( 'layerslider_ready', 'avada_layerslider_ready' );
+
+function bartag_func( $atts ) {
+    $a = shortcode_atts( array(
+        'field' => 'input'
+    ), $atts );
+
+    return $_REQUEST[$a['field']];
+}
+add_shortcode( 'postinput', 'bartag_func' );
