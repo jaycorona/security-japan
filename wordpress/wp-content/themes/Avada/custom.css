@@ -107,7 +107,11 @@ body {
 	padding: 2px;
 	font-weight: bold;
 }
-
+.fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none {
+	height: 200px;
+    overflow-y: scroll;
+	
+}
 
 
 /* Top-page Styling */
@@ -631,6 +635,14 @@ footer .fusion-row {
 		padding-left: 3%!important;
     	padding-right: 3%!important;
 	}
+	.fusion-contact-info { 
+		font-size: 0.6em!important;
+		padding: 10px 43px;
+    	line-height: 2 !important;
+	}
+	.fusion-header-v5 .fusion-sticky-header-wrapper .fusion-header p {
+		font-size:9px;
+	}
 	#post-3298 .fusion-fullwidth-4 p, #post-3298 .fusion-fullwidth-5 p {
 		/* padding: 0 !important;
 		line-height: 16px !important; */
@@ -718,7 +730,16 @@ footer .fusion-row {
 	}
 	
 	#post-3299 .post-content .fusion-fullwidth-3 .fusion-two-third {
-		margin-top: 0 !important;
+		margin-top: 0!important;
+	}
+	#post-3298 .post-content .section1 .fusion-checklist .fusion-li-item .fusion-li-item-content {
+		font-size:11px;
+	}
+	#post-3298 .fusion-fullwidth-4 p, #post-3298 .fusion-fullwidth-5 p {
+		padding-left:0px;
+	}
+	.post-content p {
+		margin-top:5px;
 	}
  }
  
@@ -846,7 +867,6 @@ footer .fusion-row {
 	}
 	
 	#post-3301 .fusion-imageframe img {
-		border: 1px solid #ccc;
 		margin: 10px auto;
 	}
 	
