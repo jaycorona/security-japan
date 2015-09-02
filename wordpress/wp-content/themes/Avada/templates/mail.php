@@ -83,7 +83,7 @@ $message = <<<EMAIL
 					</tr>
 				<tr>
 					<td bgcolor="#F2F2F2" nowrap="">ご質問ご意見</td>
-					<td bgcolor="#FFFFFF" align="left">$comment</td>
+					<td bgcolor="#FFFFFF" align="left"><pre>$comment</pre></td>
 					</tr>
 			</tbody>
 		</table>
@@ -94,7 +94,7 @@ EMAIL;
 
 
 
-$success = wp_mail( "trd.paolo@gmail.com", "Contact", $message, $headers);
+$success = wp_mail( get_bloginfo('admin_email'), "Contact", $message, $headers);
 
 ?>
 
