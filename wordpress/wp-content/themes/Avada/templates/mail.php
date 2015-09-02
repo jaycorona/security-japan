@@ -99,7 +99,7 @@ $success = wp_mail( get_bloginfo('admin_email'), "Contact", $message, $headers);
 ?>
 
 	<div id="container">
-		<?php echo $success ? "Message sent!" : "Message not sent.<br><input type=\"button\" value=\"Back\" class=\"contact-button\" onclick=\"history.back()\" />" ; ?>
+		<?php echo $success ? "送信完了いたしました。<br>お問合せありがとうございました。" : "Message not sent.<br><input type=\"button\" value=\"Back\" class=\"contact-button\" onclick=\"history.back()\" />" ; ?>
 	</div>
 
 
