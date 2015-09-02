@@ -8,13 +8,13 @@ get_header();
 
 
 
+$data = unserialize(urldecode($_POST["data"]));
 
 
-extract($_POST);
+extract($data);
 
 $inquiry = implode(" / ", $inquiry);
 $location = implode(" / ", $location);
-//$comment = nl2br($comment);
 
 $headers = array(
 		"MIME-Version: 1.0",
@@ -94,16 +94,12 @@ EMAIL;
 
 
 
-$success = wp_mail( "trd.paolo@gmail.com", "Hello World", $message, $headers);
-
-
-
-
+$success = wp_mail( "trd.paolo@gmail.com", "Contact", $message, $headers);
 
 ?>
 
 	<div id="container">
-		<?php echo $success ? "Message sent!" : "Message not sent." ; ?>
+		<?php echo $success ? "Message sent!" : "Message not sent.<br><input type=\"button\" value=\"Back\" class=\"contact-button\" onclick=\"history.back()\" />" ; ?>
 	</div>
 
 
