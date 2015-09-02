@@ -94,7 +94,7 @@ EMAIL;
 
 
 
-$success = wp_mail( get_bloginfo('admin_email'), "Contact", $message, $headers);
+$success = wp_mail( get_bloginfo('admin_email'), "お問い合わせ", $message, $headers);
 
 ?>
 
