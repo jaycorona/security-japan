@@ -107,12 +107,11 @@ body {
 	padding: 2px;
 	font-weight: bold;
 }
-.fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none {
+#post-16 .fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none {
 	height: 200px;
     overflow-y: scroll;
 	
 }
-
 
 /* Top-page Styling */
 #post-3298 .post-content .section1 .fusion-row, .fusion-footer, #footer {
