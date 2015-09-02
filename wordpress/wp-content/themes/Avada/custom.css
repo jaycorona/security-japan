@@ -217,11 +217,11 @@ body {
 }
 
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .one_third p {
-	border: 1px solid #000066;
 	line-height: 1.5;
-	padding: 8px;
+	margin-bottom: 5px;
+    padding: 0 5px;
+    text-align:justify;
 	word-break: break-all;
-	padding-left: 8px;
 }
 
 #post-3298 .post-content .fusion-fullwidth-4 .fusion-row .one_third 
@@ -627,9 +627,13 @@ footer .fusion-row {
 }
 
 @media screen and (max-width: 414px) {
+	#main {
+		padding-left: 3%!important;
+    	padding-right: 3%!important;
+	}
 	#post-3298 .fusion-fullwidth-4 p, #post-3298 .fusion-fullwidth-5 p {
-		padding: 0 !important;
-		line-height: 16px !important;
+		/* padding: 0 !important;
+		line-height: 16px !important; */
 	}
 	
 	#post-3298 .fusion-fullwidth-5 .fusion-one-third .fusion-column-wrapper {
