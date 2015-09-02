@@ -7,11 +7,7 @@
 get_header();
 
 
-$headers = array(
-		"MIME-Version: 1.0",
-		"Content-type: text/html;charset=UTF-8",
-		"From: $last_name $first_name <$email>"
-	);
+
 
 
 extract($_POST);
@@ -19,6 +15,15 @@ extract($_POST);
 $inquiry = implode(" / ", $inquiry);
 $location = implode(" / ", $location);
 //$comment = nl2br($comment);
+
+$headers = array(
+		"MIME-Version: 1.0",
+		"Content-type: text/html;charset=UTF-8",
+		"From: $last_name $first_name <$email>"
+	);
+
+
+
 $message = <<<EMAIL
 
 <html>
