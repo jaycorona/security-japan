@@ -9,7 +9,8 @@ get_header();
 
 $headers = array(
 		"MIME-Version: 1.0",
-		"Content-type:text/html;charset=UTF-8"
+		"Content-type: text/html;charset=UTF-8",
+		"From: Admin <no-reply@security-japan.trcorp.cho88.com>"
 	);
 
 
