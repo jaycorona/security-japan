@@ -112,7 +112,13 @@ body {
     overflow-y: scroll;
 	
 }
-
+.page-id-3299 .fusion-fullwidth-4 .fusion-one-sixth > div {
+	padding: 0 !important;
+}
+.page-id-3299 .fusion-fullwidth-4 .fusion-one-sixth > div > p > a {
+	color: #00f;
+    text-decoration: underline;
+}
 /* Top-page Styling */
 #post-3298 .post-content .section1 .fusion-row, .fusion-footer, #footer {
 	text-align: center !important;
