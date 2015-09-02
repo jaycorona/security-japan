@@ -1586,10 +1586,24 @@ function avada_layerslider_ready() {
 add_action( 'layerslider_ready', 'avada_layerslider_ready' );
 
 function bartag_func( $atts ) {
-    $a = shortcode_atts( array(
-        'field' => 'input'
-    ), $atts );
+	$a = shortcode_atts( array(
+		'field' => 'input',
+		'type'	=> 'text'
+	), $atts );
 
-    return $_REQUEST[$a['field']];
+	$val = $_REQUEST[$a['field']];
+	switch ($a['type']) {
+		case "checkbox":
+			if ($val=="on") {
+				return "checked=\"checked\"";
+			} else {
+				return "";
+			}
+			break;
+		default: 
+			return $val;
+	}
+
+	
 }
 add_shortcode( 'postinput', 'bartag_func' );

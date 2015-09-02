@@ -908,6 +908,8 @@ footer .fusion-row {
 	}
 	.contact-form tr td div,
 	.contact-form tr td input[type="text"],
+	.contact-form tr td input[type="tel"],
+	.contact-form tr td input[type="email"],
 	.contact-form tr td textarea {
 		width: 100% !important;
 	}
@@ -924,3 +926,56 @@ footer .fusion-row {
 	
 }
 
+
+.contact-form tr td input[type="tel"],
+.contact-form tr td input[type="email"] {
+	border: 1px solid #d2d2d2;
+	font-size: 13px;
+	color: #747474;
+	padding: 8px 15px;
+	margin-right: 1%;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.readonly{
+	border: 0 !important;
+	background: transparent !important;
+}
+.checkbox-block-1,.checkbox-block-2{
+	text-align: left !important;
+}
+.checkbox-block-2 > div {
+	display: inline !important;
+}
+
+
+.confirm-checkbox {
+	display: none !important;
+	
+}
+.confirm-checkbox.on {
+	display: inline !important;
+	color: rgb(170, 169, 169);
+}
+
+.checkbox-block-2 .confirm-checkbox.on {
+	display: inline-block !important;
+	width: 106px;
+	height: 30px;
+	color: rgb(170, 169, 169);
+}
+.confirm-checkbox.on > input[type="checkbox"],
+input[type="checkbox"].confirm-checkbox.on {
+	display: none !important;
+}
+
+.fusion-fullwidth {
+	text-align: center;
+}
+
+div.table-1 {
+	display: inline-block;
+}
