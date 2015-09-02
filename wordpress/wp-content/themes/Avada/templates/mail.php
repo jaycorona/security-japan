@@ -28,7 +28,7 @@ $message = <<<EMAIL
 
 <html>
 	<head>
-		<title>Hello World</title>
+		<title>Contact</title>
 	</head>
 	<body>
 		<table border="1" cellpadding="8" cellspacing="1" width="100%">
