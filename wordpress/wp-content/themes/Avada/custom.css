@@ -107,7 +107,7 @@ body {
 	padding: 2px;
 	font-weight: bold;
 }
-#post-16 .fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none {
+#post-16 .fusion-recent-posts {
 	height: 200px;
     overflow-y: scroll;
 	
@@ -639,6 +639,20 @@ footer .fusion-row {
 	#main {
 		padding-left: 3%!important;
     	padding-right: 3%!important;
+	}
+	.page-id-3299 .fusion-fullwidth {
+		padding: 10px!important;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fourth  {
+		width:23%;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fifth {
+		margin-top:-10px!important;
+		width:27px;
+		padding:0px 3px;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-half  {
+		width:67%;
 	}
 	.fusion-contact-info { 
 		font-size: 0.6em!important;
