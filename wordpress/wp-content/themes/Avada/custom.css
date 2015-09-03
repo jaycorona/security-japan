@@ -640,20 +640,6 @@ footer .fusion-row {
 		padding-left: 3%!important;
     	padding-right: 3%!important;
 	}
-	.page-id-3299 .fusion-fullwidth {
-		padding: 10px!important;
-	}
-	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fourth  {
-		width:23%;
-	}
-	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fifth {
-		margin-top:-10px!important;
-		width:27px;
-		padding:0px 3px;
-	}
-	.page-id-3299 .fusion-fullwidth-2 .fusion-one-half  {
-		width:67%;
-	}
 	.fusion-contact-info { 
 		font-size: 0.6em!important;
 		padding: 10px 43px;
@@ -852,8 +838,20 @@ footer .fusion-row {
 	#post-3298 .fusion-imageframe img {
 		width: 100%;
 	}
-	
-	
+	.page-id-3299 .fusion-fullwidth {
+		padding: 10px!important;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fourth  {
+		width:23%;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fifth {
+		margin-top:-10px!important;
+		width:27px;
+		padding:0px 3px;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-half  {
+		width:67%;
+	}
 	
 	#post-3299 .fusion-layout-column,
 	#post-3301 .fusion-column-wrapper,
