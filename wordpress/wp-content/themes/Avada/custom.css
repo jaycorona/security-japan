@@ -637,8 +637,30 @@ footer .fusion-row {
 
 @media screen and (max-width: 414px) {
 	#main {
+		padding-left: 0!important;
+    	padding-right: 0!important;
+	}
+	.page-id-3298 #main {
 		padding-left: 3%!important;
     	padding-right: 3%!important;
+	}
+	.page-id-3299 .fusion-fullwidth {
+		padding: 10px!important;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fourth  {
+		width:23%;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fifth {
+		margin-top: 8px!important;
+    	width: 8% !important;
+    	padding: 0px 3px!important;
+	}
+	.page-id-3299 .fusion-fullwidth-2 .fusion-one-half  {
+		width:67%;
+	}
+	.page-id-3299 .fusion-fullwidth-1 .fusion-row p, .page-id-3299 .fusion-fullwidth-3 .fusion-row p,
+	.page-id-3299 .fusion-fullwidth-6 .fusion-row p {
+		text-align:left;
 	}
 	.fusion-contact-info { 
 		font-size: 0.6em!important;
@@ -666,10 +688,14 @@ footer .fusion-row {
 		margin-left: 22px;
 	}
 	
-	#post-3301 .post-content .fusion-fullwidth-1 p, #post-3301 .post-content 
-	.fusion-fullwidth-2 p {
+	.post-3725 .post-content .fusion-fullwidth-2 p,
+	 #post-3301 .post-content .fusion-fullwidth-1 p, 
+	 #post-3301 .post-content .fusion-fullwidth-2 p , 
+	 #post-3301 .post-content .fusion-fullwidth-3 p, 
+	 #post-3301 .post-content .fusion-fullwidth-4 p , 
+	 #post-3301 .post-content .fusion-fullwidth-5 p.p2  {
 		text-align: left;
-		padding: 0;
+		padding: 0 10px!important;
 	}
 	
 	#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half.left-margin 
@@ -693,16 +719,11 @@ footer .fusion-row {
 	.imageframe-align-center {
 		margin: 0;
 	}
-	
 	#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half 
 	.fusion-column-wrapper p, #post-3725 .fusion-fullwidth-1 .tag-line 
 	.reading-box, #post-3725 .fusion-fullwidth-2 
 	.fusion-one-full .fusion-column-wrapper h4 {
 	    padding: 0 4px;
-	}
-	
-	#post-3301 .post-content .fusion-fullwidth-2 .fusion-one-half {
-		margin-left: 5px;
 	}
 	
 	#post-3725 .fusion-fullwidth-1 .fusion-one-half.fusion-column-last {
@@ -749,6 +770,11 @@ footer .fusion-row {
  }
  
  @media screen and (max-width: 320px) {
+ 
+	.page-id-3298 .fusion-fullwidth-1 .fusion-column-last h4 {
+		text-align:left;
+		padding:0 3px!important;
+	}
  	#post-3299 .post-content .fusion-fullwidth-2 p, #post-3299 .post-content 
  	.fusion-fullwidth-1 p, #post-3299 .post-content .fusion-fullwidth-2 p {
  		padding: 0;
@@ -838,21 +864,6 @@ footer .fusion-row {
 	#post-3298 .fusion-imageframe img {
 		width: 100%;
 	}
-	.page-id-3299 .fusion-fullwidth {
-		padding: 10px!important;
-	}
-	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fourth  {
-		width:23%;
-	}
-	.page-id-3299 .fusion-fullwidth-2 .fusion-one-fifth {
-		margin-top:-10px!important;
-		width:27px;
-		padding:0px 3px;
-	}
-	.page-id-3299 .fusion-fullwidth-2 .fusion-one-half  {
-		width:67%;
-	}
-	
 	#post-3299 .fusion-layout-column,
 	#post-3301 .fusion-column-wrapper,
 	#post-16 .fusion-columns,
