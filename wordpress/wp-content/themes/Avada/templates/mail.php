@@ -4,17 +4,17 @@
  * 
  * */
 
-get_header();
+get_header("custom");
 
 
 
+$data = unserialize(urldecode($_POST["data"]));
 
 
-extract($_POST);
+extract($data);
 
 $inquiry = implode(" / ", $inquiry);
 $location = implode(" / ", $location);
-//$comment = nl2br($comment);
 
 $headers = array(
 		"MIME-Version: 1.0",
@@ -83,7 +83,7 @@ $message = <<<EMAIL
 					</tr>
 				<tr>
 					<td bgcolor="#F2F2F2" nowrap="">ご質問ご意見</td>
-					<td bgcolor="#FFFFFF" align="left">$comment</td>
+					<td bgcolor="#FFFFFF" align="left"><pre>$comment</pre></td>
 					</tr>
 			</tbody>
 		</table>
@@ -94,16 +94,12 @@ EMAIL;
 
 
 
-$success = wp_mail( "trd.paolo@gmail.com", "Hello World", $message, $headers);
-
-
-
-
+$success = wp_mail( get_bloginfo('admin_email'), "お問い合わせ", $message, $headers);
 
 ?>
 
 	<div id="container">
-		<?php echo $success ? "Message sent!" : "Message not sent." ; ?>
+		<?php echo $success ? "送信完了いたしました。<br>お問合せありがとうございました。" : "Message not sent.<br><input type=\"button\" value=\"Back\" class=\"contact-button\" onclick=\"history.back()\" />" ; ?>
 	</div>
 
 
