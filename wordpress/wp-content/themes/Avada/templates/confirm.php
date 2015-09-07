@@ -105,6 +105,29 @@ if (count($location) > 0) {
 		min-height: 300px;
 		text-align: center;
 	}
+
+
+	@media screen and (max-width: 450px) {
+
+		#container > table {
+			border-width: #eee !important;
+			width: 95%;
+    		margin: auto;
+		}
+		#container > table:nth-child(1) td {
+			display: block !important;
+			text-align: left !important;
+			border-color: #eee !important;
+		}
+		#container > table:nth-child(1) tr td:nth-child(1) {
+			background: #ffedec;
+			font-size: 17px;
+		}
+		#container > table:nth-child(1) tr td:nth-child(2) {
+			color: #555;
+		}
+	}
+
 </style>
 <?php
 get_footer();
