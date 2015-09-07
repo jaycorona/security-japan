@@ -220,13 +220,17 @@ function avada_header_2() { ?>
 					<?php avada_logo(); ?>
 				</div>
 				<div class="col col-right">
-					<img alt="contact-img" src="<?php $upDir = wp_upload_dir(); echo $upDir['baseurl'] ?>/2015/08/sj-contact-img.png">
+					<img usemap="#imgcontacts" alt="contact-img" src="<?php $upDir = wp_upload_dir(); echo $upDir['baseurl'] ?>/2015/08/sj-contact-img.png">
+					<map name="imgcontacts">
+						<area shape="rect" coords="20%,0%,208%,15%" href="tel:0120-85-9990" alt="0120-85-9990">
+						<area shape="rect" coords="20%,35%,208%,18%" href="tel:03-3498-9990" alt="03-3498-9990">
+					</map>
 				</div>
 			</div>
 			<div class="clear"></div>
 			<p> 
-				◆KABA クラブ会員◆KABA ACクラブ会員 ◆(財)全国防犯協会連合会認定シリンダー鍵取扱店</br>
-				◆(社)日本防犯設備協会認定防犯設備士　◆日本防犯協会会員 
+				笳�KABA 繧ｯ繝ｩ繝紋ｼ壼藤笳�KABA AC繧ｯ繝ｩ繝紋ｼ壼藤 笳�(雋｡)蜈ｨ蝗ｽ髦ｲ迥ｯ蜊比ｼ夐�｣蜷井ｼ夊ｪ榊ｮ壹す繝ｪ繝ｳ繝�繝ｼ骰ｵ蜿匁桶蠎�</br>
+				笳�(遉ｾ)譌･譛ｬ髦ｲ迥ｯ險ｭ蛯吝鵠莨夊ｪ榊ｮ夐亟迥ｯ險ｭ蛯吝｣ｫ縲�笳�譌･譛ｬ髦ｲ迥ｯ蜊比ｼ壻ｼ壼藤 
 			</p>
 			<?php echo avada_modern_menu(); ?>
 		</div>
