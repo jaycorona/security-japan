@@ -22,79 +22,108 @@ $headers = array(
 		"From: $last_name $first_name <$email>"
 	);
 
+/* ////////email message for Admin */
+$message_admin = "
+
+		▼以下はホームページから送信した内容です。 <br/>
+		===ここから======================================= <br/><br/>
+		■姓 <br/>
+		$last_name <br/><br/>
+		■名 <br/>
+		$first_name <br/><br/>
+		■セイ <br/>
+		$last_name_phonetic <br/><br/>
+		■メイ <br/>
+		$first_name_phonetic <br/><br/>
+		■郵便番号 <br/>
+		$postal_code <br/><br/>
+		■ご住所 <br/>
+		$address <br/><br/>
+		■ビル名・部屋番号 <br/>
+		$building <br/><br/>
+		■お電話番号 <br/>
+		$phone <br/><br/>
+		■Email <br/>
+		$email <br/><br/>
+		■お問合せ内容 <br/>
+		$inquiry <br/><br/>
+		■対応してほしいカギの場所 <br/>
+		$location <br/><br/>
+		■自動車の車種・年式 <br/>
+		$manufacturer <br/><br/>
+		■ご質問ご意見 <br/>
+		$comment <br/><br/>
+		
+		=======================================ここまで=== <br/>
+		後日、ご返信いたしますので、しばらくお待ちください。 <br/>
+		１週間以内に返信が無い場合には、メールが届いていな <br/>
+		いことが考えられますので、 <br/>
+		お手数ですが、もう一度送信してください。 <br/><br/>
+		
+		よろしくお願いいたします。 <br/><br/>
+		
+		================================================== <br/>
+		 フリーダイヤル：0120-85-9990 <br/>
+		「カギの救急車」渋谷店：(03)3498-9990／(03)5466-9969 <br/>
+		「カギの救急車」笹塚受付：(03)5485-9969／(03)3583-9969 <br/>
+		24時間！出張OK！防犯設備士が対応！見積り無料 <br/>
+
+";
+/* ////////////email message for User */
+$message_user = "
+
+		<p>カギの救急車　渋谷です。 <br/>
+		お問い合わせありがとうございます。</p>
+		<br/>
+		▼以下はホームページから送信した内容です。  <br/>
+		===ここから======================================= <br/><br/>
+		■姓 <br/>
+		$last_name <br/><br/>
+		■名 <br/>
+		$first_name <br/><br/>
+		■セイ <br/>
+		$last_name_phonetic <br/><br/>
+		■メイ <br/>
+		$first_name_phonetic <br/><br/>
+		■郵便番号 <br/>
+		$postal_code <br/><br/>
+		■ご住所 <br/>
+		$address <br/><br/>
+		■ビル名・部屋番号 <br/>
+		$building <br/><br/>
+		■お電話番号 <br/>
+		$phone <br/><br/>
+		■Email <br/>
+		$email <br/><br/>
+		■お問合せ内容 <br/>
+		$inquiry <br/><br/>
+		■対応してほしいカギの場所 <br/>
+		$location <br/><br/>
+		■自動車の車種・年式 <br/>
+		$manufacturer <br/><br/>
+		■ご質問ご意見 <br/>
+		$comment <br/><br/>
+		
+		=======================================ここまで=== <br/>
+		後日、ご返信いたしますので、しばらくお待ちください。 <br/>
+		１週間以内に返信が無い場合には、メールが届いていな <br/>
+		いことが考えられますので、 <br/>
+		お手数ですが、もう一度送信してください。 <br/><br/>
+		
+		よろしくお願いいたします。 <br/><br/>
+		
+		================================================== <br/>
+		 フリーダイヤル：0120-85-9990 <br/>
+		「カギの救急車」渋谷店：(03)3498-9990／(03)5466-9969 <br/>
+		「カギの救急車」笹塚受付：(03)5485-9969／(03)3583-9969 <br/>
+		24時間！出張OK！防犯設備士が対応！見積り無料 <br/>
+";
+
+$success = wp_mail( get_bloginfo('admin_email'), "カギの救急車渋谷店ホームページからの問い合わせ", $message_admin, $headers);
 
 
-$message = <<<EMAIL
+$success = wp_mail( $email, "カギの救急車　渋谷：ホームページからのお問合せ", $message_user, $headers);
 
-<html>
-	<head>
-		<title>Contact</title>
-	</head>
-	<body>
-		<table border="1" cellpadding="8" cellspacing="1" width="100%">
-			<tbody>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">姓</td>
-					<td bgcolor="#FFFFFF" align="left">$last_name</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">名</td>
-					<td bgcolor="#FFFFFF" align="left">$first_name</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">セイ</td>
-					<td bgcolor="#FFFFFF" align="left">$last_name_phonetic</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">メイ</td>
-					<td bgcolor="#FFFFFF" align="left">$first_name_phonetic</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">郵便番号</td>
-					<td bgcolor="#FFFFFF" align="left">$postal_code</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">ご住所</td>
-					<td bgcolor="#FFFFFF" align="left">$address</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">ビル名・部屋番号</td>
-					<td bgcolor="#FFFFFF" align="left">$building</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">お電話番号</td>
-					<td bgcolor="#FFFFFF" align="left">$phone</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">Email</td>
-					<td bgcolor="#FFFFFF" align="left">$email</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">お問合せ内容</td>
-					<td bgcolor="#FFFFFF" align="left">$inquiry</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">対応してほしいカギの場所</td>
-					<td bgcolor="#FFFFFF" align="left">$location</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">自動車の車種・年式</td>
-					<td bgcolor="#FFFFFF" align="left">$manufacturer</td>
-					</tr>
-				<tr>
-					<td bgcolor="#F2F2F2" nowrap="">ご質問ご意見</td>
-					<td bgcolor="#FFFFFF" align="left"><pre>$comment</pre></td>
-					</tr>
-			</tbody>
-		</table>
-	</body>
-</html>
-
-EMAIL;
-
-
-
-$success = wp_mail( get_bloginfo('admin_email'), "お問い合わせ", $message, $headers);
 
 ?>
 
