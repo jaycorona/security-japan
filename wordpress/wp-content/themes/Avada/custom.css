@@ -48,7 +48,7 @@ body {
 	margin-bottom: 0 !important;
 }
 
-.fusion-secondary-header {
+.fusion-secondary-header, .fusion-secondary-main-menu,footer  {
 	color: #000 !important;
 	border: none;
 	background-color: rgba(253,240,4,1) !important;
@@ -573,6 +573,8 @@ body {
 
 /* Footer Styling */
 footer {
+	margin:auto!important;
+	max-width:1000px!important;
 	padding: 0 !important;
 	border-color: transparent !important;
 	text-align: center;
