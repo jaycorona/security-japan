@@ -19,7 +19,7 @@ $location = implode(" / ", $location);
 $headers = array(
 		"MIME-Version: 1.0",
 		"Content-type: text/html;charset=UTF-8",
-		"From: $last_name $first_name <$email>"
+		"From: info@security-japan.jp <$email>"
 	);
 
 /* ////////email message for Admin */
