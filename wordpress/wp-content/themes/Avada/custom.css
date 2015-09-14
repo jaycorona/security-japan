@@ -111,10 +111,13 @@ body {
 	font-weight: bold;
 }
 #post-16 .fusion-recent-posts {
-	height: 250px;
+	height: 400px;
 	line-height:1.5;
     overflow-y: scroll;
 	
+}
+.page-id-3298 a.fusion-button.button-1 {
+	padding:0px!important;
 }
 .page-id-3299 .fusion-fullwidth-4 .fusion-one-sixth > div {
 	padding: 0 !important;
@@ -550,6 +553,11 @@ body {
 #post-16 .fusion-fullwidth-1 .fusion-recent-posts p.meta {
 	font-weight: bold;
 	margin-bottom: 5px;
+}
+.page-id-16 .fusion-recent-posts .columns .column .meta .date {
+	font-weight: bolder;
+    color: #000;
+    font-size: 11pt;
 }
 
 /* Store Page */
